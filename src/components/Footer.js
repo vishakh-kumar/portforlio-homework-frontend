@@ -4,16 +4,22 @@ const Footer = (props) => {
     return (
         <div className="footer">
             <p>
-                <i class="far fa-copyright"></i> Vishakh Portfolio
-                <Link to="https://www.instagram.com/vishakh_kumar/">
+                <i className="far fa-copyright"></i> Vishakh Portfolio
+                <a
+                    target="_blank"
+                    href="https://www.instagram.com/vishakh_kumar/"
+                >
                     <i className="fab fa-instagram"></i>
-                </Link>
-                <Link to="https://www.github.com/vishakh-kumar">
-                    <i class="fab fa-github"></i>
-                </Link>
-                <Link to="https://www.linkedin.com/in/vishakh-kumar/">
-                    <i class="fab fa-linkedin"></i>
-                </Link>
+                </a>
+                <a target="_blank" href="https://www.github.com/vishakh-kumar">
+                    <i className="fab fa-github"></i>
+                </a>
+                <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/vishakh-kumar/"
+                >
+                    <i className="fab fa-linkedin"></i>
+                </a>
             </p>
         </div>
     );

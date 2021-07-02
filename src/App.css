@@ -18,3 +18,13 @@ nav > a {
 .footer > p > a {
     margin-left: 10px;
 }
+.home-style > h1 {
+    text-align: center;
+}
+.home-style {
+    margin: 15px;
+    text-align: justify;
+}
+.home-style > img {
+    width: 400px;
+}
